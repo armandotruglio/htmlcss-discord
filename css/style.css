@@ -16,7 +16,7 @@ body{
 }
 
 .container{
-    width: 1080px;
+    width: 900px;
     margin: 0 auto;
 }
 
@@ -107,44 +107,69 @@ body{
 
 /*Main*/
 .intro-section1{
-    height: 400px;
+    height: 500px;
     background-color: white;
     padding: 25px;
 }
 
 .intro-section2{
-    height: 400px;
-    background-color: grey;
+    height: 600px;
+    background-color: #f6f6f6;
     padding: 25px;
 }
 
 .intro-section3{
-    height: 400px;
+    height: 600px;
     background-color: white;
     padding: 25px;
 }
 
 .intro-section4{
-    height: 600px;
-    background-color: grey;
+    min-height: 600px;
+    background-color: #f6f6f6;
     padding: 25px;
 }
 
 .image{
-    background-color: pink;
+    flex-basis: 50%;
+}
+
+.image > img{
     height: 350px;
-    width: calc(100%/3);
 }
 
 .description{
-    background-color: rgb(79, 160, 187);
-    height: 350px;
-    width: calc(100%/3 *2);
+    padding: 30px;
+    flex-grow: 1;
+}
+
+.description h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.description p{
+    line-height: 25px;
 }
 
 .final-section{
-    background-color: green;
-    min-height: 550px;
+    text-align: center;
+}
+
+.final-section h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.final-section h4{
+    font-size: larger;
+    margin-bottom: 25px;
+}
+
+.mac-download-footer{
+    color: white;
+    font-weight: bold;
+    background-color: #8ea1e1;
 }
 
 /*Footer*/
