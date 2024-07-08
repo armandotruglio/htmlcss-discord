@@ -6,7 +6,7 @@
 }
 
 /*Font*/
-body{
+*{
     font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
@@ -107,19 +107,19 @@ body{
 
 /*Main*/
 .intro-section1{
-    height: 500px;
+    min-height: 500px;
     background-color: white;
     padding: 25px;
 }
 
 .intro-section2{
-    height: 600px;
+    min-height: 600px;
     background-color: #f6f6f6;
     padding: 25px;
 }
 
 .intro-section3{
-    height: 600px;
+    min-height: 600px;
     background-color: white;
     padding: 25px;
 }
@@ -154,6 +154,7 @@ body{
 
 .final-section{
     text-align: center;
+    padding-bottom: 50px;
 }
 
 .final-section h2{
@@ -179,36 +180,71 @@ body{
     padding: 25px;
 }
 
+.main-footer .container{
+    border-bottom: 1px solid #546397;
+}
+
 .contact-section{
-    background-color: pink;
+    padding: 0 25px;
     min-height: 450px;
-    min-width: 50%;
+    flex-basis: 33%;
+}
+
+.main-footer h4{
+    color: #546397;
+}
+
+.contact-section h4{
+    font-size: x-large;
+    margin-bottom: 25px;
+}
+
+.language *{
+    display: inline-block;
+}
+
+.language img{
+    height: 15px;
+}
+
+.language figcaption{
+    font-size: x-small;
+    color: white;
 }
 
 .link-section{
-    background-color: aqua;
     min-height: 450px;
-    min-width: 50%;
+    flex-grow: 1;
 }
 
 .link-section > *{
-    width: 25%;
+    flex-basis: 25%;
+}
+
+.link-section h4{
+    font-size: medium;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+    color: white;
+}
+
+li{
+    margin-bottom: 10px;
+    font-size: medium;
 }
 
 .side-footer{
-    border: solid white 1px;
     background-color: rgb(26, 25, 25);
     height: 80px;
     padding: 20px;
-}
-.side-footer-items{
-    background-color: aquamarine;
 }
 
 .logo-footer{
     height: 40px;
     width: 70px;
-    background-color: white;
     text-align: center;
     line-height: 40px;
 }
