@@ -212,6 +212,10 @@
     color: white;
 }
 
+i{
+    margin: 15px 10px;
+    color: white;
+}
 .link-section{
     min-height: 450px;
     flex-grow: 1;
