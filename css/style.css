@@ -27,28 +27,30 @@ body{
 /*Header*/
 .main-header{
     min-height: 350px;
-    padding: 25px;
-    background-color:  lightblue;
-    background-image: url("../img/jumbo.png");
-    background-size: 1080px;
+    background-color: #255ee9;
 }
 
 .header-nav{
-    margin-bottom: 25px;
+    padding: 25px 0;
 }
 
 .logo{
     flex-basis: 25%;
 }
 
+.logo img{
+    height: 30px;
+}
+
 .links{
     flex-grow: 1;
     text-align: center;
-    justify-content: space-between;
-    line-height: 30px;
 }
 
 .links a{
+    font-size: small;
+    margin: 10px;
+    line-height: 30px;
     text-decoration: none;
     color: white;
 }
@@ -56,22 +58,51 @@ body{
 .login{
     flex-basis: 25%;
     text-align: end;
-    line-height: 30px;
 }
 
-.login a{
+.button{
+    font-size: small;
     text-decoration: none;
     color: black;
     background-color: white;
-    padding: 10px;
+    padding: 12px;
     border-radius: 20px;
 }
 
 .download-image{
-    background-color: palevioletred;
+    padding: 100px 0;
+    color: white;
     align-items: center;
-    height: 250px;
-    width: 600px;
+    background-image: url("../img/jumbo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container-jumbotron{
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.jumbotron-title{
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.download-image p{
+    line-height: 25px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.download-buttons{
+    justify-content: center;
+    gap: 20px;
+}
+
+.open-browser{
+    color: white;
+    background-color: #23272a;
 }
 
 /*Main*/
